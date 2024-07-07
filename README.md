@@ -1,7 +1,10 @@
 ## Book Store
+![Uploading Screenshot (3).png…]()
+
 The article explains how to use the Chakra UI library in React.js by building a responsive website. The website will be built with Chakra components only, no HTML element will be used.
 
 <br />
+
 
 ## How to use it 
 
