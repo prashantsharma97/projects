@@ -1,0 +1,136 @@
+.font-17 {
+  font-size: 17px;
+  font-weight: 600;
+}
+.font-56 {
+  font-size: 56px;
+  font-weight: 700;
+}
+
+.dragscroll {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.dragscroll::-webkit-scrollbar {
+  display: none;
+}
+
+.cards-wrapper {
+  grid-column: center-start / -1;
+  display: grid;
+  grid-auto-flow: column;
+  gap: 1rem;
+  overflow-x: auto;
+  padding-bottom: 1rem;
+  padding-right: var(--page-margin);
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.cards-wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.card {
+  display: grid;
+  place-content: center;
+  font-size: 1.5rem;
+  height: 20rem;
+  min-width: 13rem;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.search {
+  padding: 40px 20px;
+  background: linear-gradient(to right, #e0eafc, #cfdef3);
+  text-align: center;
+}
+
+.search h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.search input {
+  padding: 10px;
+  width: 300px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.search button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #ff69b4;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.search button:hover {
+  background-color: #ff85c1;
+}
+
+/* BookModel */
+.book-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.book-card img {
+  width: 150px;
+  height: 130px;
+  border-radius: 4px;
+}
+
+.details-button,
+.buy-button {
+  padding: 10px;
+  margin: 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.details-button {
+  background-color: #ccc;
+  color: white;
+}
+
+.buy-button {
+  background-color: #ff69b4;
+  color: white;
+}
+
+.buy-button:hover {
+  background-color: #ff85c1;
+}
+
+/* BookModel */
+
+/* BookDetails */
+.Over-flow {
+  width: 250px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.Over-flow2 {
+  width: 170px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+/* BookDetails */
